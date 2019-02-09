@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caracteres especiales</title>
+</head>
+<body>
+	<p>Podremos utilizar los caracteres especiales para introducir simbolos tales como rombos,diamantes arrobas etc</P>
+  <p>podremos utilizar los caracteres especiales para introducir simbolos tales como rombos,diamantes arrobas etc</P>
+  <p>con este caracter especial mostraremos &hearts; un corazon</p>
+  <p>con este caracter especial mostraremos &clubs; un trebol</p>
+  <p>con este caracter especial mostraremos &diams; un diamante</p>
+  <p>con este caracter especial mostraremos &spades; un simbolo de Picas</p>
+	<p>con este caracter especial mostraremos &copy; simbolo de copyright</p>
+  <p> 
+  en la pagina:<a href="https://www.w3schools.com/html/html_entities.asp">w3schools.com</a> 
+  encontraremos todos los caracteres que podemos 
+  utilizar 
+  </p>
+  
+</body>
+</html>
+</body>
+</html>
