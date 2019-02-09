@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Incrustacion de Imagenes</title>
+</head>
+<body>
+  <h1> Incrustacion de imagenes </h1>
+  <p>Podremos incrustar las imagenes con la etiqueta "img" la sintaxis seria la siguiente: <img src="ruta_imagen.jpg"> 
+  la etiqueta de imagen no necesita etiqueta de cierre,dentro del parametro src pondremos la ruta completa de la imagen </p>
+  <p> podremos determinar el tamaño de las imagenes incrustando estilos dentro d ela misma etiqueta de la imagen 
+  <img src="ruta_imagen.jpg" height="200">
+  con el parametro height determinaremos la altura,no es necesario poner si se trata de pixeles. </p>
+  <p> tambien podremos añadir texto complementario y descriptivo en la imagen para en caso de que no poder cargar la imagen se muestre el texto alternativo
+  este texto tambien sirve para qeu los buscadores puedan indexar nuestra imagen,utilizaremos los parametros "alt" 
+  <img src="ruta_imagen.jpg" height="200" alt="Texto de la imagen">
+</body>
+</html>
