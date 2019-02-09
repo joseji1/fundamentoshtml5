@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Negritas,cursivas,énfasis,span</title>
+</head>
+<body>
+	<p>Para resaltar un texto en negrita utilizaremos la etiqueta "b" esto es:<b>negrita</b></p>
+  <p>Para resaltar un texto en negrita tambien podremos utilizar la etiqueta "strong" 
+  esta etiqueta proporciona una negrita con resultados mas samanticos para los buscadores
+  <strong> negrita con strong</strong></p>
+  <p> Para añadir un texto con cursiva utilizaremos la etiqueta "i":<i> texto con cursiva </i> </p>
+  <h2>para realizar énfasis en un texto utilizaremos la etiqueta "em":<em>Texto con énfasis</em> </h2>
+  <p> Para poder seleccionar un elemento dentro de un congunto de elementos y poder aplicarles estilos individuales con css utilizaremos 
+      la etiqueta "span,esta etiqueta aparentemente no realiza ningun cambio pero nos sirve para poder seleccionar un fragmento y poder realizar posteriormente 
+      modificaciones individuales <span> texto con span </span> </p>
+</body>
+</html>
