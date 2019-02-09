@@ -2,7 +2,8 @@
 <!-- siempre que se vaya a maquetar en html tendremos que iniciar nuestro proyecto con las etiquetas basicas y la declaracion del Doctype -->
 <html lang="en"> <!-- Se determinara el codigo del la lengua oficial sobre la que se desarrollara el proyecto web( es = Español) --->
 <head>            <!-- Dentro de nuestra etiqueta head pondremos los estilos externos y las meta etiquetas que se utilizaran --->
-	<meta charset="UTF-8"> <!-- meta charset establece el tipo de codificacion de los caracteres que se utilizaran en el proyecto --->
+	<meta charset="UTF-8"> 	<!-- meta charset establece el tipo de codificacion de los caracteres que se utilizaran en el proyecto
+				los metas no necesitan un tag de cierre --->
 	<title>Document</title>
 </head>
 <body> <!--Dentro de nuestras etiqueta body se pondran todas aquellas etiquetas correspondientes a la estructura visual de nuestro proyecto ---> 
