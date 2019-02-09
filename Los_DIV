@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Los elemtos Div en HTML5</title>
+</head>
+<body>
+<h1>Las etiquetas DIV </h1>
+<div> 
+    <p>Las etiquetas "DIV" serven para encerrar elementos dentro y vendrian a ser como pequeñas cajas donde dividir los elementos
+     este texto esta dentro de un "DIV" y podemos poner tantos como necesitemos dividir en secciones nuestro proyecto web</p>
+ </div>
+ <div> 
+    <p>Las etiquetas "DIV" serven para encerrar elementos dentro y vendrian a ser como pequeñas cajas donde dividir los elementos
+     este texto esta dentro de un "DIV" y podemos poner tantos como necesitemos dividir en secciones nuestro proyecto web</p>
+ </div>
+ <div id="id-ejemplo"> 
+    <p>Podemos añadir al "DIV" algunos parametros para poderlo identificar y poderles aplicar diferentes cambios de estilo css,
+    para ello utilizaremos los parametros "ID" o los parametros de Clase "class" seguidos de un nombre descritivo y representativo del contenido de 
+    nuestro div,la diferencia entre un "id" y una "clase" es que el "id" es unico y no se puede repetir para reunir un grupo de Divs,mientras
+    que con la clase se que podremos repetirla en aquelllos divs que queremos 
+    englobarlos dendro de un mismo grupo,pudiendo agruparlos y aplicarles los mismos estilos de forma conjunta.
+    </p>
+ </div>
+ <div class="contenedor"
+     <div class="logo"> 
+        <img src="logo.png" alt="logo de la web">
+     </div>
+     <div class="navegacion"> 
+       <h1>Espacio para el menu de navegacion</h1>
+     </div>
+ </div>
+</body>
+</html>
