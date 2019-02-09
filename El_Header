@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Encabezado Header</title>
+</head>
+<body>
+<div class="contenedor"
+    <header> <!-- la etiqueta header nos sirve para agrupar los elementos de cabezera,los elementos de cabecera se pueden repetir --->
+         <div class="logo"> 
+            <img src="logo.png" alt="logo de la web">
+         </div>
+       <div class="navegacion"> 
+         <h1>Espacio para el menu de navegacion</h1>
+       </div>
+   </header>
+ </div>
+</body>
