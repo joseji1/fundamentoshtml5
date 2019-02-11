@@ -5,7 +5,7 @@
 	<title>Encabezado Header</title>
 </head>
 <body>
-<div class="contenedor"
+<div class="contenedor">
     <header> <!-- la etiqueta header nos sirve para agrupar los elementos de cabezera,los elementos de cabecera se pueden repetir --->
          <div class="logo"> 
             <img src="logo.png" alt="logo de la web">
