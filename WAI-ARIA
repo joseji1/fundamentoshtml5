@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aprendiendo accesibiliad propiedades rol</title>
+</head>
+<body>
+<!--Añadiendo las propiedades Wai-aria a las diferentes secciones añadimos accesibilidad para personas invidentes,esto lo hacemos 
+asignando los roles determinados en cada una de las etiquetas segun su contenido web de referencia 
+https://www.w3.org/TR/html-aria/#docconformance -->
+	<div class="contenedor">
+  <!--propiedad rol banner-->
+  <header role="banner">
+    <div class="logo">
+      <img src="img/logo.png" alt="logo empresa">
+    </div>
+    <!--propiedad rol nagetation -->
+     <nav class="navegacion" role="navigation"> <!--Etiqueta de HTML5 Para marcar el contenido de un Menú -->
+        menu aqui
+     </nav>
+  </header>
+  <!--propiedad rol main -->
+    <main class="contenido-principal" role="main"> 
+      <section> 
+          <h2>Nuestros Cursos</h2>
+            <div>
+              <h3>HTML5</h3>
+              <img src="img/css3.png">
+            </div>
+            <div>
+              <h3>CSS3</h3>
+              <img src="img/html5.png">
+            </div>
+            <div>
+              <h3>JavaScript</h3>
+              <img src="img/js.png">
+            </div>
+      </section> <!--Con la Etiqueta Section dividiremos en secciones nuestros elementos -->
+      <section>
+        <h2>Ultimas Noticias</h2>
+        <!--propiedad rol article -->
+         <article role="article">
+          <h3>aprende a maquetar con HTML5 </h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+          nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,sem.</p>
+        </article> <!--Con la Etiqueta Article establecemos la seccion donde pondremos los articulos de la web  -->
+      </section>
+    </main> <!--Con la Etiqueta Main establecemos el area para el contenido principal -->
+    <!--propiedad rol complementary -->
+    <aside role="complementary"> <!--Con la Etiqueta Aside establecemos elementos considerados segundarios -->
+      <h2> Proximos cursos </h2>
+      <div> 
+        <h3> PHP </h3>
+        <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+          nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,sem.</p>
+      </div>
+      <div> 
+        <h3>MySQL</h3>
+        <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+          nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,sem.</p>
+      </div>
+    </aside>
+   </div>
+   <!--propiedad rol contentinfo-->
+   <footer role="contentinfo"> <!--Establecemos el area para el pie de pagina -->
+   <div class ="nosotros">
+     <h3>Sobre nuestra escuela</h3>
+      P>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+      Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+       nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,sem.
+        </p>
+   </div>
+   <div class ="menu"> 
+     <nav class="navegacion" role="navigation"> <!--Volvemos a utilizar una etiqueta de menu para organizar informacion del pie de pagina -->
+        Menu aqui
+     </nav>
+   </div>
+   <p>Cursos de diseño web &mdash;Todos los derechos reservados &copy;</p> <!--Utilizamos los simbolos &mdash y &copy para imprimir -->
+   </footer>
+</body>
+</html>
