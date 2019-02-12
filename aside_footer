@@ -57,7 +57,7 @@
       </div>
     </aside>
    </div>
-   <footer>
+   <footer> <!--Establecemos el area para el pie de pagina -->
    <div class ="nosotros">
      <h3>Sbre nuestra escuela</h3>
       P>
@@ -67,11 +67,11 @@
         </p>
    </div>
    <div class ="menu"> 
-     <nav class="navegacion">
+     <nav class="navegacion"> <!--Volvemos a utilizar una etiqueta de menu para organizar informacion del pie de pagina -->
         Menu aqui
      </nav>
    </div>
-   <p>Cursos de diseño web &mdash;Todos los derechos reservados &copy;</p>
+   <p>Cursos de diseño web &mdash;Todos los derechos reservados &copy;</p> <!--Utilizamos los simbolos &mdash y &copy para imprimir -->
    </footer>
 </body>
 </html>
