@@ -8,7 +8,7 @@
 <body>
 <!--Añadiendo las propiedades Wai-aria a las diferentes secciones añadimos accesibilidad para personas invidentes,esto lo hacemos 
 asignando los roles determinados en cada una de las etiquetas segun su contenido web de referencia 
-https://www.w3.org/TR/html-aria/#docconformance -->
+https://www.w3.org/TR/html-aria/#docconformance o esta otra https://www.w3.org/TR/wai-aria/#usage_intro -->
 	<div class="contenedor">
   <!--propiedad rol banner-->
   <header role="banner">
